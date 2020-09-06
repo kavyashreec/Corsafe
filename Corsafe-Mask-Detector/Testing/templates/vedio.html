@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block image %}
+<h3 style="font-family: 'Special Elite', cursive;color: lightgray">Live video starting.....</h3>
+<div style="display: block;
+    text-align: center;
+  margin-left: auto;
+  margin-right: auto;">
+    <img src={{ url_for('video_feed') }} width="850" height="500" alt=".LIVE">
+</div>
+{% endblock %}

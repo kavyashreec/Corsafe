@@ -1,0 +1,142 @@
+*{
+  margin:0;
+}
+html body{
+  background-color:#59405c;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding:20px;
+  font-family: 'Abril Fatface', cursive;
+
+}
+.app__navbar{
+  display: flex;
+  margin-bottom:20px;
+  flex-direction: row;
+  height: 300px;
+  position: relative;
+  top: 0;
+  width:100%;
+}
+.app__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+}
+.app__dropdown{
+  background-color:white;
+}
+.app__header > h1{
+  color: blueviolet;
+  font-size:2rem;
+}
+.app__left{
+  flex: 0.9;
+}
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+}
+.app__right{
+  display: flex;
+  flex-direction: column;
+}
+.app__right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.app__graph{
+  flex-grow:1;
+}
+.app__graphTitle{
+  margin-top: 20px;
+  margin-bottom:20px ;
+  padding:10px ;
+}
+@media (max-width:990px){
+  .app{
+    flex-direction: column;
+  }
+}
+
+.apphome__tracker{
+  padding-top:80px;
+  background-color:#59405c;
+}
+
+/* --------------------------------------------------------------Navbar--------------------------------------------------------------------------------- */
+
+.navbartot{
+  /* height:80px; */
+  background-color:#26232e;
+  font-family: 'Red Rose', cursive;
+}
+.navcont{
+  text-align: right;
+  margin-right:200px;
+  color: rgb(253, 247, 239);
+  font-size: 1.25em;
+  font-family: 'Red Rose', cursive;
+}
+.navbrand{
+  text-align: left;
+  margin-left:30px;
+  font-family: 'Red Rose', cursive;
+    font-size: 1.25em;
+
+}
+
+/* -----------------------------------------------------------------------_Home--------------------------------------------------------------------------- */
+
+.mastslog{
+    color: black;
+    font-family: monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 1rem;
+  
+}
+.mastname{
+  color: black;
+  font-family: 'Red Rose', cursive;
+  font-size:10rem;
+}
+
+
+
+/* ----------------------------------------------------------------------------------News---------------------------------------------------------------- */
+
+.Newscontainer{
+  margin:20px;
+}
+.NewsTop{
+  margin-top:100px;
+  font-family: 'Red Rose', cursive;
+  font-size: 2rem;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.logoimg{
+  height:150px;
+  width:180px;
+}
+.navbrand{
+  font-size: 1.5rem;
+  color: lightgray;  
+  font-family: 'Red Rose', cursive;
+}
+.readmore{
+  color:red;
+}

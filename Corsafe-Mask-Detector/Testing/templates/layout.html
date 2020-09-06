@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-Mask-Detector</title>
+    <link rel="icon" href="https://img.icons8.com/bubbles/50/000000/coronavirus.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Red+Rose:wght@700&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <style>
+        img {
+          border-radius: 20px;
+        }
+       .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #26232e;
+            margin: 0;
+            font-family: 'Special Elite', cursive;
+        }
+
+        .nav
+        {
+            margin-top: 0;
+        }
+
+
+        
+        .nav li {
+            float: left;
+        }
+    
+         li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .active {
+            background-color: #111;
+        }
+        
+        li {
+            float: left;
+        }
+        
+       body{
+            background-color: #59405c;
+            font-family: 'Red Rose', cursive;
+         }
+
+        .logo{
+            position: relative;
+            left: 85%;
+        }
+
+        .Logo-title{
+            font-size: 2rem;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class= "nav">
+    <ul class= "mr-auto"> 
+        <div class="logo">
+        
+                
+        </div>        
+        <li><a class="active" href="/">Home</a></li>
+        <li><a href="/vedio">Video</a></li>
+        
+        
+    </ul>
+    </div>
+    
+    {% block image %}
+    {% endblock %}
+    
+</body>
+</html>
